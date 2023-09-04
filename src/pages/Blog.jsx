@@ -4,10 +4,6 @@ import Certificate from "../assets/certificate.jpg";
 import Form from '../component/Form';
 
 const Blog = () => {
-  const onSubmitHandler =(e) =>{
-    e.preventDefault();
-  }
-
   return (
     <>
       <NavLink title ="Our Certificate & Online Programs For 2022"/>
@@ -33,7 +29,6 @@ const Blog = () => {
                 <div className='comment'>
                   <h3>Leave a comment</h3>
                   <Form buttenText="Post Comment" 
-                  onSubmitHandler={onSubmitHandler} 
                   input1="Enter Name" 
                   input2="Enter Email" 
                   text="Your Comment"

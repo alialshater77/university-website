@@ -6,9 +6,6 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
-  const onSubmitHandler =(e) =>{
-    e.preventDefault();
-  }
 
   return (
     <>
@@ -54,7 +51,6 @@ const Contact = () => {
             input1="Enter Your Name" 
             input2="Enter Email Address" 
             input3="Enter Your Subject" 
-            onSubmitHandler={onSubmitHandler} 
             text="Message"
             buttenText="Send Message"
             />
